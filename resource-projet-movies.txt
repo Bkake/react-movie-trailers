@@ -1,4 +1,4 @@
-URL TheMovieDB
+URL TheMovieDB API: https://www.themoviedb.org/documentation/api
 
 Les films les plus populaires du moment en français:
 https://api.themoviedb.org/3/discover/movie?language=fr&sort_by=popularity.desc&include_adult=false&api_key=votreClé
