@@ -44,6 +44,7 @@ ${API_END_POINT}movie/${this.state.currentMovie.id}/recommendations?${API_KEY}&l
 3 - Adopter les task "start" et "postinstall" dans package.json en ajoutant aussi un task "dev"
 4 - Pusher le projet sur heroku :
     1 - Se logger via le ternimal : heroku login -i ("entrer les identifiants demandés par l'invite de cmd)
-    2 - Pusher le projet sur heroku avec la commande ci-dessous 
+    2 - Pusher le projet sur heroku avec les commandes ci-dessous 
         heroku apps:create react-movie-trailers
+        git push heroku master
         
