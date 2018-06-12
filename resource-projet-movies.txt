@@ -34,3 +34,16 @@ ${API_END_POINT}${SEARCH_URL}&${API_KEY}&query=${searchText}
 
 Endpoint films recommandés:
 ${API_END_POINT}movie/${this.state.currentMovie.id}/recommendations?${API_KEY}&language=fr;
+
+## Deployement sur Heroku
+   ### url heroku :
+        https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+1 - Avoir un compte sur heroku 
+2 - Création d'un petit serveur avec ExpressJS (server.js)
+3 - Adopter les task "start" et "postinstall" dans package.json en ajoutant aussi un task "dev"
+4 - Pusher le projet sur heroku :
+    1 - Se logger via le ternimal : heroku login -i ("entrer les identifiants demandés par l'invite de cmd)
+    2 - Pusher le projet sur heroku avec la commande ci-dessous 
+        heroku apps:create react-movie-trailers
+        
