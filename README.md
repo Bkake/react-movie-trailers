@@ -1,4 +1,4 @@
-### React-Redux-Starter ###
+### React-Movie-Trilers ###
 
 Pour installer le projet se placer dans le projet et lancer : 
 

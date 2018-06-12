@@ -1,9 +1,9 @@
 {
-  "name": "react-redux-pack-demarrage",
+  "name": "react-movie-trailers",
   "version": "1.0.0",
-  "description": "Un pack de démarrage pour React + Redux",
+  "description": "Tuto de demarrage React",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/Bkake/react-movie-trailers.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
